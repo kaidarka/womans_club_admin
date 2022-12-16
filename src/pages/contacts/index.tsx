@@ -1,11 +1,11 @@
 import React from 'react';
-import HomeContainer from 'src/pages/home/containers';
+import ContactsContainer from "./containers";
 
-export const HomeRouter = () => {
+export const ContactsRouter = () => {
     // This is router component for home page
     return (
-        <HomeContainer />
+        <ContactsContainer />
     );
 };
 
-export default HomeRouter;
+export default ContactsRouter;

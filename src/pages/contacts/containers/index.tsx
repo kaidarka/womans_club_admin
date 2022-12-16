@@ -1,11 +1,11 @@
 import React from 'react';
-import {HomeComponent} from "../components";
+import {ContactsComponent} from "../components";
 
-const HomeContainer = () => {
+const ContactsContainer = () => {
     // This is container for data processing
     return (
-        <HomeComponent />
+        <ContactsComponent />
     );
 };
 // default export for redux
-export default HomeContainer;
+export default ContactsContainer;

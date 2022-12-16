@@ -1,11 +1,11 @@
 import React from 'react';
-import HomeContainer from 'src/pages/home/containers';
+import EventsContainer from "./containers";
 
-export const HomeRouter = () => {
+export const EventsRouter = () => {
     // This is router component for home page
     return (
-        <HomeContainer />
+        <EventsContainer />
     );
 };
 
-export default HomeRouter;
+export default EventsRouter;

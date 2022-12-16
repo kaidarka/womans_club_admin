@@ -1,10 +1,10 @@
 import React from 'react';
 
-export const HomeComponent = () => {
+export const EventsComponent = () => {
     // This is router component for home page
     return (
         <div>
-render
+            EventsComponent
         </div>
     );
 };

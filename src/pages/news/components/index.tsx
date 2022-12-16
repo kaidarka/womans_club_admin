@@ -1,10 +1,10 @@
 import React from 'react';
 
-export const HomeComponent = () => {
+export const NewsComponent = () => {
     // This is router component for home page
     return (
         <div>
-render
+            NewsComponent
         </div>
     );
 };

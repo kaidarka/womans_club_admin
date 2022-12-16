@@ -1,11 +1,11 @@
 import React from 'react';
-import {HomeComponent} from "../components";
+import {EventsComponent} from "../components";
 
-const HomeContainer = () => {
+const EventsContainer = () => {
     // This is container for data processing
     return (
-        <HomeComponent />
+        <EventsComponent />
     );
 };
 // default export for redux
-export default HomeContainer;
+export default EventsContainer;

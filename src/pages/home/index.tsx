@@ -1,11 +1,11 @@
 import React from 'react';
-import HomeContainer from 'src/pages/home/containers';
-
-export const HomeRouter = () => {
+import {Link} from "react-router-dom";
+// This page is not for this project
+export const Home = () => {
     // This is router component for home page
     return (
-        <HomeContainer />
+        <Link to='/login'>
+            <button>Войти</button>
+        </Link>
     );
 };
-
-export default HomeRouter;

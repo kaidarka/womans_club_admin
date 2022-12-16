@@ -1,11 +1,11 @@
 import React from 'react';
-import HomeContainer from 'src/pages/home/containers';
+import NewsContainer from "./containers";
 
-export const HomeRouter = () => {
+export const NewsRouter = () => {
     // This is router component for home page
     return (
-        <HomeContainer />
+        <NewsContainer />
     );
 };
 
-export default HomeRouter;
+export default NewsRouter;
