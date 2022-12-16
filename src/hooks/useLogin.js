@@ -7,7 +7,6 @@ export const useLogin = () => {
 
   return async (email, password) => {
     try {
-      console.log(1)
       const response = await axios.post(`/auth/login/`, {
         email,
         password

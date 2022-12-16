@@ -4,9 +4,8 @@ import {useLogin} from "../../../hooks/useLogin";
 
 const LoginContainer = () => {
     const login = useLogin();
-    const loginAction = (values: { userName: string; password: string; }, setSubmitting: (value: boolean) => void) => {
-        console.log(values);
-        login(values.userName, values.password).then(() => setSubmitting(false));
+    const loginAction = (values: { userName: string; password: string; }) => {
+        login(values.userName, values.password)
     }
     return (
         <LoginComponent action={loginAction}/>
